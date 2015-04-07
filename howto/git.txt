@@ -13,6 +13,7 @@ git push
 
 git clone https://github.com/libgit2/libgit2 mylibgit
 
+git remote -v
 FORKNG
 https://help.github.com/articles/fork-a-repo/
 
@@ -23,4 +24,7 @@ git diff
 git log -p -2
 more at bottom of http://git-scm.com/book/en/v2/Git-Basics-Viewing-the-Commit-History
 
+git remote add origin git@github.com:robodioxide/devops.git
+
+git push -u origin master
 
