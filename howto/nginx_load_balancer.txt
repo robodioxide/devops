@@ -1,0 +1,23 @@
+
+vim /etc/nginx/sites-enabled/default
+
+upstream project {
+	server 1.2.3.4:443;
+	server 1.2.3.5:443;
+	#server 1.2.3.6:443;
+	server 1.2.3.7:443;
+}
+
+server {
+	listen 443;
+	location / {
+		proxypass https://project; ## above upstream name
+	}
+}
+
+
+## caching
+location ~* \.(gif|js|png|jp?g|pdf)$ {
+	expires 168h;
+}
+
