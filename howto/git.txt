@@ -1,0 +1,26 @@
+git config --list
+
+git config --global user.name "Jeffrey Thomas"
+git config --global user.email thomas.jeffrey.g@gmail.com
+git config --global core.editor vim
+
+git init
+
+git add *.c
+git commit -m 'initial project version'
+
+git push
+
+git clone https://github.com/libgit2/libgit2 mylibgit
+
+FORKNG
+https://help.github.com/articles/fork-a-repo/
+
+git status
+
+git diff
+
+git log -p -2
+more at bottom of http://git-scm.com/book/en/v2/Git-Basics-Viewing-the-Commit-History
+
+

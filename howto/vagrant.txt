@@ -1,0 +1,18 @@
+Vagrant: spins up VMs
+
+vagrant box add http://.....
+  (stored in ~/.virtualbox/)
+
+vagrant cd project/
+
+vagrant init ___
+
+vim Vagrantfile
+
+vagrant up
+
+vagrant ssh
+
+vagrant reload
+
+
