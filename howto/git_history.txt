@@ -1,0 +1,60 @@
+  507  2015-04-06 20:42:24 vim howto/git.txt
+  508  2015-04-06 20:58:23 ls
+  509  2015-04-06 20:58:30 vim Vagrantfile 
+  510  2015-04-06 21:06:43 git config --global user.name "robodioxide"
+  511  2015-04-06 21:08:12 git config --global user.email "nah"
+  512  2015-04-06 21:11:44 vim howto/git.txt
+  513  2015-04-06 21:14:05 cd ~
+  514  2015-04-06 21:14:10 ssh -h
+  515  2015-04-06 21:14:15 ssh -i
+  516  2015-04-06 21:14:23 ls .ssh/
+  517  2015-04-06 21:14:35 ssh-keygen 
+  518  2015-04-06 21:15:07 cat  .ssh/id_rsa.pub 
+  519  2015-04-06 21:21:31 cd DevOps_2015/
+  520  2015-04-06 21:21:34 git init
+  521  2015-04-06 21:21:41 ls
+  522  2015-04-06 21:21:52 mkdir Vagrant
+  523  2015-04-06 21:22:00 mv Vagrantfile Vagrant
+  524  2015-04-06 21:22:09 mv d7-jgt1 Vagrant/
+  525  2015-04-06 21:22:13 ls -a
+  526  2015-04-06 21:22:21 ls .vagrant/
+  527  2015-04-06 21:22:26 mv .vagrant/ Vagrant/
+  528  2015-04-06 21:22:45 ls
+  529  2015-04-06 21:22:55 git add howto
+  530  2015-04-06 21:22:58 git status
+  531  2015-04-06 21:23:34 git commit -m "First commit to GitHub"
+  532  2015-04-06 21:24:03 vim howto/git.txt 
+  533  2015-04-06 21:24:43 git remote add origin git@github.com:robodioxide/devops.git
+  534  2015-04-06 21:24:53 git push --help
+  535  2015-04-06 21:26:19 git push -u origin master
+  536  2015-04-06 21:26:59 vim howto/git.txt 
+  537  2015-04-06 21:28:05 git remote -v
+  538  2015-04-06 21:28:50 git add howto/
+  539  2015-04-06 21:28:53 git status
+  540  2015-04-06 21:28:57 git push
+  541  2015-04-06 21:29:38 git config --global push.default simple
+  542  2015-04-06 21:29:41 git status
+  543  2015-04-06 21:29:45 git push
+  544  2015-04-06 21:29:49 git status
+  545  2015-04-06 21:30:08 vim howto/git.txt 
+  546  2015-04-06 21:30:32 git commit -m "updates"
+  547  2015-04-06 21:30:36 git push
+  548  2015-04-06 21:30:46 vim howto/git.txt 
+  549  2015-04-06 21:31:07 git add howto/
+  550  2015-04-06 21:31:15 git status
+  551  2015-04-06 21:31:21 git add howto/
+  552  2015-04-06 21:31:24 git status
+  553  2015-04-06 21:31:51 git commit -m "updates to txt"
+  554  2015-04-06 21:31:53 git status
+  555  2015-04-06 21:32:08 gut log
+  556  2015-04-06 21:32:12 git log
+  557  2015-04-06 21:32:29 git push
+  558  2015-04-06 21:32:34 git log
+  559  2015-04-06 21:32:40 git status
+  560  2015-04-06 21:49:27 history 
+  561  2015-04-06 21:49:53 history -65
+  562  2015-04-06 21:50:00 history -n 65
+  563  2015-04-06 21:50:07 history 
+  564  2015-04-06 21:50:15 man history
+  565  2015-04-06 21:50:57 history |tail -65
+  566  2015-04-06 21:51:40 history |tail -60 > howto/git_history.txt
