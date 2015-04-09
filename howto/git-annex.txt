@@ -1,0 +1,8 @@
+
+git annex — large files in repo 
+git annex init
+git annex add file.txt
+
+git annex sync --content
+
+
