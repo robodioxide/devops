@@ -24,8 +24,22 @@ git diff
 git log -p -2
 more at bottom of http://git-scm.com/book/en/v2/Git-Basics-Viewing-the-Commit-History
 
+git clone git@github.com:robodioxide/devops.git
+cd devops
 git remote add origin git@github.com:robodioxide/devops.git
+git add __
+ git status
+ git diff
+git commit -m " "
+git add __ __
+git add __ __
+git commit -m " "
+git push -U orgin master
 
-git push -u origin master
+git fetch (get branches)
+git pull (merge to master)
+
+git branch
+git branch -r  (remote)
 
 
