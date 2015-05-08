@@ -1,9 +1,11 @@
+
 Vagrant: spins up VMs
 
 vagrant box add http://.....
   (stored in ~/.virtualbox/)
 
-vagrant cd project/
+cd project/
+cd /home/eljefe/DevOps_2015/Vagrant
 
 vagrant init ___
 
@@ -13,6 +15,14 @@ vagrant up
 
 vagrant ssh
 
+Reload based on Vagrantfile
 vagrant reload
+
+==
+
+Package:
+$ VBoxManage list vms
+  "Debian" {37680776-73b9-44fd-8348-f60fd3895624}
+$ vagrant package --base 37680776-73b9-44fd-8348-f60fd3895624  --output /path/to/name.box
 
 
